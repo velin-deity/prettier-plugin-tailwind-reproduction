@@ -224,6 +224,11 @@ didyoumean@^1.2.2:
   resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.2.tgz#989346ffe9e839b4555ecf5666edea0d3e8ad037"
   integrity sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==
 
+diff@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-5.1.0.tgz#bc52d298c5ea8df9194800224445ed43ffc87e40"
+  integrity sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==
+
 dlv@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
@@ -563,6 +568,18 @@ postcss@^8.4.23, postcss@^8.4.38:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
+
+prettier-plugin-classnames@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-classnames/-/prettier-plugin-classnames-0.7.0.tgz#7fd3755eb5670996e60bdb0231edd4c6be97e676"
+  integrity sha512-gxnMyTUPs5rPY/JzjLBsiBFA0Dj9/oukk02fGofAQ+FFzGYNZEHWL8Q9TWXmglgJgBzy2Cx0Az9n+Uk4DtianA==
+
+prettier-plugin-merge@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.7.0.tgz#2431087561f16b42221da59c2bac5041821ab7c0"
+  integrity sha512-DfLjkEg6Cdm+1kbudiuOf5B3xFCjQuMCF76PWvv95erzmPQNOsTdsz0O6fgc5CdNtWED/lBitemfBlufqJVqUw==
+  dependencies:
+    diff "5.1.0"
 
 prettier-plugin-tailwindcss@0.6.4:
   version "0.6.4"

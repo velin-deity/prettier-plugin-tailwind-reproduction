@@ -1,0 +1,20 @@
+{
+  "name": "prettier-plugin-tailwind-reproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/velin-deity/prettier-plugin-tailwind-reproduction.git",
+  "author": "Velin Ekupov <velin@deity.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prettier": "prettier --check ./src",
+    "prettier:fix": "prettier --write ./src"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "0.6.4",
+    "tailwindcss": "^3.4.4"
+  }
+}
